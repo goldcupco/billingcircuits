@@ -13,7 +13,7 @@ Contents :
 8. Installation
    
 
-1. Summary , Issues and Recommendations:
+ Summary , Issues and Recommendations:
    
 This program is written to show the number of calls and total duration by customer on a small sample text file of data.
 
@@ -28,7 +28,7 @@ This program is written to show the number of calls and total duration by custom
 5.This program could then be simply be reduced to a REST API to engineer a solution that can be more easily maintained and upgraded moving forward.
 
 
-2. Requirement :
+ Requirement :
 
 Fair billing 
 You work for a hosted application provider which charges for the use of its application by the duration of sessions. There is a charge
@@ -79,17 +79,17 @@ calculations.
 
 
 
-3. Language used :
+ Language used :
 
  Node.js v18.4.0
 
 
-4. Expected output :
+ Expected output :
 
 ALICE99 4 240
 CHARLIE 3 37
 
-5. Actual output :
+ Actual output :
  
 node fairBilling.js ./logfile.txt
 
@@ -140,7 +140,7 @@ Snapshots:   0 total
 Time:        0.636 s, estimated 1 s
 
 
-8. Installation :
+ Installation :
 
 
 Set up the default package.json using 
