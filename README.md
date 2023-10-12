@@ -13,6 +13,7 @@ Contents :
 8. Installation 
 
 1. Summary , Issues and Recommendations:
+   
 =======================================
 This program is written to show the number of calls and total duration by customer on a small sample text file of data.
 
