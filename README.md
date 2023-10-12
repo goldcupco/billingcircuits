@@ -25,7 +25,7 @@ This program is written to show the number of calls and total duration by custom
 
 4.Postgres would be an ideal low cost solution for the backend calculation.
 
-5.This program could then be simply be reduced to a REST API to engineer a solution that can be more easily maintained and upgraded moving forward.
+5.This program could then be simply be reduced to a REST API combined with a Psql functions and procedures  to engineer a solution that can be more easily maintained and upgraded for higher volumes of data moving forward.
 
 
  Requirement : see the pdf document
