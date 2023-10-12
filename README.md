@@ -14,7 +14,6 @@ Contents :
 
 1. Summary , Issues and Recommendations:
    
-=======================================
 This program is written to show the number of calls and total duration by customer on a small sample text file of data.
 
 1.Currently 75% of the actual output has the correct figures. 
@@ -29,7 +28,7 @@ This program is written to show the number of calls and total duration by custom
 
 
 2. Requirement :
-===============
+
 Fair billing 
 You work for a hosted application provider which charges for the use of its application by the duration of sessions. There is a charge
 per second of usage. The usage data comes from a log file that lists the time at which a session starts or stops (in the format
@@ -80,17 +79,17 @@ calculations.
 
 
 3. Language used :
-================= 
+
  Node.js v18.4.0
 
 
 4. Expected output :
-==================
+
 ALICE99 4 240
 CHARLIE 3 37
 
 5. Actual output :
-================= 
+ 
 node fairBilling.js ./logfile.txt
 
 gives 
@@ -99,11 +98,11 @@ CHARLIE 3 37
 ALICE99 4 116
 
 6. Run Instructions :
-===================
+
 node fairBilling.js ./logfile.txt
 
 7. Testing : ( using jest)
-=========================
+
 npm test          
 
 gives :
@@ -141,7 +140,7 @@ Time:        0.636 s, estimated 1 s
 
 
 8. Installation :
-================
+
 
 Set up the default package.json using 
   
